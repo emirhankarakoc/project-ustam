@@ -22,22 +22,28 @@ export default function InspectMenu() {
       try {
         const response = await http.get(`${APIURL}/admin/inspect/${id}`);
         const data = response.data;
+        console.log(data);
 
         if (Array.isArray(data)) {
           if (data.length > 1) {
-            // Gerekli nesneleri ayarlama
             setUser(data[0]);
             setCard(data[1]);
           } else if (data.length === 1) {
             setUser(data[0]);
             setCard(null);
+          } else {
+            setUser(null);
+            setCard(null);
           }
         } else {
-          // Verinin dizi olup olmadığını kontrol edin
           console.error("Beklenen veri formatı alındı: ", data);
+          setUser(null);
+          setCard(null);
         }
       } catch (error) {
         console.log(httpError(error));
+        setUser(null);
+        setCard(null);
       }
     };
 
@@ -46,23 +52,23 @@ export default function InspectMenu() {
   }, [id]);
 
   return (
-    <div className="container">
-      {user && (
-        <div>
-          <p>Inspect User</p>
-          <Row className="border border-2 border-primary p-2 my-2 rounded">
-            <InspectUser user={user} />
-          </Row>
-        </div>
-      )}
-      {card && (
-        <div>
-          <p>Inspect Card</p>
-          <Row className="border border-2 border-primary p-2 my-2 rounded">
-            <InspectCard card={card} user={user} />
-          </Row>
-        </div>
-      )}
-    </div>
+      <div className="container">
+        {user && (
+            <div>
+              <p>Inspect User</p>
+              <Row className="border border-2 border-primary p-2 my-2 rounded">
+                <InspectUser user={user} />
+              </Row>
+            </div>
+        )}
+        {card && (
+            <div>
+              <p>Inspect Card</p>
+              <Row className="border border-2 border-primary p-2 my-2 rounded">
+                <InspectCard card={card} user={user} />
+              </Row>
+            </div>
+        )}
+      </div>
   );
 }
