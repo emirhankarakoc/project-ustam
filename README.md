@@ -64,7 +64,14 @@ for frontend, nothing changed but i will set my ip adress in mobile.
 
 Open mobile > assets > http.js
 ![image](https://github.com/user-attachments/assets/627f5141-fb46-44db-b95b-c4e19070bfd3)
-put your ip adress.
+put your ip adress and run.
+
+
+## Running guide
+**for backend, open ide and click run button.**
+**for frontend, open terminal and write "npm start"**
+**for mobile, (i use android) open terminal and write "npm run android"**
+
 
 
 
