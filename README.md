@@ -69,8 +69,8 @@ put your ip adress and run.
 
 ## Running guide
 - **for backend, open ide and click run button.**
-- **for frontend, open terminal and write "npm start"**
-- **for mobile, (i use android) open terminal and write "npm run android"**
+- **for frontend, open terminal and write "npm install" then "npm start"**
+- **for mobile, (i use android) open terminal and write "npm install" then "npm run android"**
 
 
 
