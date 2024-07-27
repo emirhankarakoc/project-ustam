@@ -47,6 +47,28 @@ The mobile app is developed using React Native and tested on an Android emulator
 - **Android Emulator** (or a physical Android device)
 - **React Native Libraries**
 
+
+#### Setup guide
+If you are going to run the frontend and backend on the same machine with your Android emulator, what I write below does not matter.
+
+If you are going to run the backend on a separate machine and the emulator on a separate machine like me, we need to make some IP settings so that we can deliver http requests correctly.<br>
+open cmd and type ipconfig
+
+![image](https://github.com/user-attachments/assets/13d23466-3732-42b9-9e57-c30bdcec32cc)
+here there is, your ipv4 adress. you will need this. mine 192.168.1.75 for my local wifi.<br>
+We need this ip adress for connecting mobile app to backend. 
+
+Open frontend > http.js (in root libary) and put your ip adress there
+![image](https://github.com/user-attachments/assets/a35febaa-2e1c-4736-be74-848e62176f15)<br>
+for frontend, nothing changed but i will set my ip adress in mobile.
+
+Open mobile > assets > http.js
+![image](https://github.com/user-attachments/assets/627f5141-fb46-44db-b95b-c4e19070bfd3)
+put your ip adress.
+
+
+
+
 ### Some Images from frontend and mobile application.
 
 #### Authentication
