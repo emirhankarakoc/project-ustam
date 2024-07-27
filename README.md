@@ -83,6 +83,8 @@ The mobile app is developed using React Native and tested on an Android emulator
 ##### Inspecting Mechanic's Profile
 ![mobile-inspectsearchresponseprofile](https://github.com/user-attachments/assets/1ead00b8-f9d6-4694-bced-0e51d8f36ee2)
 
+<br>
+I will not develop anymore, PR's are welcome.
 
 
 
