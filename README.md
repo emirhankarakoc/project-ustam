@@ -49,5 +49,28 @@ The mobile app is developed using React Native and tested on an Android emulator
 
 ### Some Images from frontend and mobile application.
 
+![mobile-search-skills](https://github.com/user-attachments/assets/6a5a24af-b96a-444d-a7a5-843564ec88de)
+![mobile-search-response](https://github.com/user-attachments/assets/1054c858-48f3-42da-8cb6-9d8ee94701fa)
+![mobile-search-provinces](https://github.com/user-attachments/assets/db89d62a-300a-4676-a29b-83ebce8a90fb)
+![mobile-register](https://github.com/user-attachments/assets/8046e3ea-8014-43d2-96a1-5616766c3748)
+![mobile-login](https://github.com/user-attachments/assets/4687de46-85d9-400a-b6df-cb4e71106740)
+![mobile-editprovinces](https://github.com/user-attachments/assets/ebeb123e-d02c-4d0b-82f3-aea7f3ad007f)
+![mobile-addremoveprovinces](https://github.com/user-attachments/assets/a5d775a0-05c9-4834-9743-8c6d5aea2143)
+![mechanic-list](https://github.com/user-attachments/assets/d8ce19dd-5e13-49cc-b6a9-c97d9c6980cd)
+![login](https://github.com/user-attachments/assets/b1e5e9ad-f5ea-433e-85bf-791e143308ce)
+![inspect-mechanic-wo-idcard](https://github.com/user-attachments/assets/8e2daccf-b7ac-4c14-a51f-6b02a5f86768)
+![inspect-idcard-mechanic](https://github.com/user-attachments/assets/7f9f02f6-59cd-4d1b-bedb-1c915b2c8587)
+![editskills](https://github.com/user-attachments/assets/7fb73a13-7667-4cf0-ab3b-1b91ca035a8a)
+![add-skill](https://github.com/user-attachments/assets/30a75b7f-6a16-4991-90f3-6eb7898b835b)
+![add-province](https://github.com/user-attachments/assets/131054ac-434f-4c39-b280-50d6a481658c)
+![404page](https://github.com/user-attachments/assets/1d9db8d6-a002-46ed-a288-3fc20d4f70ef)
+![skills](https://github.com/user-attachments/assets/e173ea1e-8a83-4ae8-b117-9ae07a750a4a)
+![mobile-loadsamplemechanics](https://github.com/user-attachments/assets/c11ae99b-f94e-45f5-b0fc-b078a9192392)
+![mobile-inspectsearchresponseprofile](https://github.com/user-attachments/assets/1ead00b8-f9d6-4694-bced-0e51d8f36ee2)
+![register](https://github.com/user-attachments/assets/70d8c50f-260f-4074-9496-48f3fb679b14)
+![provinces](https://github.com/user-attachments/assets/c9ef0ce6-f60e-41f8-be11-c612164f0067)
+![profilepage](https://github.com/user-attachments/assets/a68ead72-2fae-4ff9-a5bc-a7185625f15f)
+
+
 
 
