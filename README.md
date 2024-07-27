@@ -15,3 +15,8 @@ This github repo contains 3 projects. I put 3 projects in same repo because I wo
 ### For Frontend
 - Node.js
 - Bootstrap
+
+### For Mobile Application
+- Node.js
+- Android Emulator (I used my tablet)
+- Some react native libaries
