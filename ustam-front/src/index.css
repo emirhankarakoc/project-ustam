@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.custom-button {
+  background-color: #8a2be2; /* Mor renk */
+  color: white; /* Beyaz metin */
+  border: none; /* Kenarlık yok */
+}
+
+.custom-button:hover {
+  background-color: #800080; /* Hover efekti için koyu mor */
+}
+/* styles.css */
+.btn-shine {
+  transition: background-color 0.3s ease;
+}
+
+.btn-shine:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Arka planı hafifçe karartır */
+}
+.decoration-none {
+  text-decoration: none !important;
+}
