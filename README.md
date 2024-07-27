@@ -1,35 +1,53 @@
-#### Intro
-One of my friends told me about she can't find mechanics when needed, so I tought about a project for connect customers-mechanics. Started with backend, created entities, created logics about appointments; who can send review? who can create appointments? is he must be verified or not? how mechanics and customers will verify themselves? I tought about this...
-
-Actually I really love coding at backend but mobile development was struggling me. Creating appointments, (Writing Review's)'s mechanics are ready but not implemented in mobile app.
-PR's are welcome! 
-
-
 # Find Mechanics Around Me Project
-This github repo contains 3 projects. I put 3 projects in same repo because I wont develop anymore, so you can find everything in same repo.<br>
-1- Spring boot backend <br>
-2- React frontend <br>
-3- React Native mobile app <br>
+
+This project aims to connect customers and mechanics by providing functionalities such as booking appointments, writing reviews, and finding nearby mechanics. The repository includes three main projects:
+
+1. **Spring Boot Backend**: Manages the server-side logic and provides APIs.
+2. **React Frontend**: Creates the web interface and handles user interactions.
+3. **React Native Mobile App**: Developed for mobile devices and includes additional functionalities.
+## Project Overview
+
+The project connects customers with mechanics, enabling functionalities like appointment creation, review submission, and mechanic search. The backend fully developed, but the mobile app and frontend has some incomplete features.
+
+### Backend
+
+The backend is developed using Spring Boot and uses MySQL 8 for data storage. It includes:
+
+- **Mechanic and Customer Verification**: Determines who can create appointments and leave reviews.
+- **Appointment Management**: Allows users to schedule appointments with mechanics.
+- **Review Submission**: Enables customers to leave reviews for mechanics.
+
+#### Requirements
+
+- **MySQL 8**
+- **Java**
+- **Cloudinary Secret Key**
+
+### Frontend
+
+The frontend is built with React and styled using Bootstrap. It includes:
+
+- **User Interface**: Provides functionalities for creating provinces, creating skills, verificate mechanics, inspect user profile with id card, reviews,appointments and list users.
+
+#### Requirements
+
+- **Node.js**
+- **Bootstrap**
+
+### Mobile Application
+
+The mobile app is developed using React Native and tested on an Android emulator. It includes:
+
+- **Appointment Creation**: Allows users to find mechanics with given Skill and Province from mobile devices.
+- **Review Submission(waiting)**: Enables users to leave reviews for mechanics.
+
+#### Requirements
+
+- **Node.js**
+- **Android Emulator** (or a physical Android device)
+- **React Native Libraries**
+
+### Some Images from frontend and mobile application.
 
 
-## Introduction playlist
-[Youtube introduction playlist](https://www.youtube.com/playlist?list=PL9ijKSNIEZlFN33o8s1Ui2fVfYv7JVlBR)
 
-
-
-
-
-
-## Requirements
-### For Backend
-- Mysql 8
-- Java17 
-
-### For Frontend
-- Node.js
-- Bootstrap
-
-### For Mobile Application
-- Node.js
-- Android Emulator (I used my tablet)
-- Some react native libaries
