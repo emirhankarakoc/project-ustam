@@ -9,9 +9,9 @@ This github repo contains 3 projects. I put 3 projects in same repo because I wo
 
 ## Requirements
 ### For Backend
--Mysql 8
--Java17 
+- Mysql 8
+- Java17 
 
 ### For Frontend
--Node.js
--Bootstrap
+- Node.js
+- Bootstrap
