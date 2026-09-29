@@ -21,4 +21,4 @@ cd backend
 
 Use the scripts in each client folder to start the web or mobile app, and point it to your local API.
 
-I built this around a problem in car repair: finding a mechanic with the right skills. It is a prototype, not a live booking or payment service. Replace any old credentials from Git history if they were used on real accounts.
+I built this around a problem in car repair: finding a mechanic with the right skills.
