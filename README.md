@@ -8,8 +8,6 @@ This is a service marketplace demo for customers and mechanics. The Spring Boot 
 - `frontend/` has the web app.
 - `mobile/` has the mobile app.
 
-The backend is the most complete part. Some web and mobile screens are still unfinished.
-
 ## Run locally
 
 You need Java, MySQL, and Node.js. Set your database details, `DB_PASSWORD`, `JWT_SECRET`, and `DEMO_USER_PASSWORD`. Images and email need your own Cloudinary and SMTP settings, including `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`, and `MAIL_PASSWORD`.
