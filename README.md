@@ -1,6 +1,6 @@
 # Ustam: Find Mechanics
 
-This is a service marketplace demo for customers and mechanics. The Spring Boot backend has accounts, mechanic skills and locations, appointments, and reviews. There are also React web and React Native mobile apps.
+This is a service marketplace demo for customers and mechanics. The Spring Boot backend has accounts, mechanic skills and locations, and appointments. There are also React web and React Native mobile apps.
 
 ## Code
 
@@ -17,6 +17,6 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-Use the scripts in each client folder to start the web or mobile app, and point it to your local API.
+For the web app, run `npm install` and `npm start` in `frontend/`. For the Expo mobile app, run `npm install` and `npm start` in `mobile/`. Point each client to your local API.
 
 I built this around a problem in car repair: finding a mechanic with the right skills.
